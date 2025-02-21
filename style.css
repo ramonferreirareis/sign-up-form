@@ -12,7 +12,6 @@
     
 }
 
-
 h1 {
     font-family: 'Norse';
 }
@@ -42,12 +41,21 @@ img {
 .logotype{
     position: absolute;
     width: 50%;
+
     color: white;
     background-color: rgba(0, 0, 0, 0.37);
     font-size: 3rem;
+    padding-block: 40px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
