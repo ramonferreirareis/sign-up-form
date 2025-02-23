@@ -18,7 +18,6 @@ h1 {
 
 body {
     display: flex;
-
 }
 
 img {
@@ -55,7 +54,12 @@ img {
 
 main {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+main div {
+    background-color: rgb(191, 226, 224);
 }
 
