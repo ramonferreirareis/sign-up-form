@@ -96,3 +96,23 @@ button {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(253, 114, 138) ;
+    font-weight: 600;
+}
+
+.content fieldset {
+    display: flex;
+}
+
+fieldset {
+    display: flex;
+    gap: 30px;
+}
+
+fieldset p {
+    display: flex;
+    flex-direction: column;
+}
+
