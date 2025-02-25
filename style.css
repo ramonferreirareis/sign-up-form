@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Schoolbell";
 }
 
 h1 {
@@ -74,7 +75,7 @@ main > :first-child {
     justify-content: flex-end;
 
     font-size: 1.2em;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 p:nth-of-type(3) {
