@@ -122,3 +122,8 @@ input {
     width: 300px;
 }
 
+input:focus {
+    border: 3px solid rgb(0, 162, 255);
+    box-shadow: rgb(8, 59, 57) 1px 1px 5px;
+}
+
