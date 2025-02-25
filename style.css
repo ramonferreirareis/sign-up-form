@@ -120,6 +120,8 @@ fieldset p {
 
 input {
     width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(10, 78, 73);
 }
 
 input:focus {
@@ -127,3 +129,6 @@ input:focus {
     box-shadow: rgb(8, 59, 57) 1px 1px 5px;
 }
 
+input:user-invalid {
+    border: 2px solid rgb(238, 111, 111);
+}
