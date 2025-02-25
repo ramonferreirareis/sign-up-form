@@ -66,7 +66,7 @@ form {
 }
 
 main > :nth-child(odd)  {
-    background-color: rgb(211, 229, 253);
+    background-color: rgb(164, 214, 226);
 }
 
 main > :first-child {
@@ -92,15 +92,16 @@ button {
     font-size: 1em;
     font-weight: 600;
 
-    background-color: pink;
+    background-color: rgb(47, 37, 66);
     color: white;
 }
 
 a {
     text-decoration: none;
-    color: rgb(253, 114, 138) ;
+    color: rgb(47, 37, 66);
     font-weight: 600;
 }
+
 
 .content fieldset {
     display: flex;
@@ -108,11 +109,16 @@ a {
 
 fieldset {
     display: flex;
-    gap: 30px;
+    gap: 100px;
+    border: none;
 }
 
 fieldset p {
     display: flex;
     flex-direction: column;
+}
+
+input {
+    width: 300px;
 }
 
