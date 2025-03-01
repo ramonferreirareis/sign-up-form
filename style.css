@@ -16,6 +16,7 @@ h1 {
     font-family: 'Norse';
 }
 
+
 body {
     display: flex;
 }
@@ -96,10 +97,19 @@ button {
     color: white;
 }
 
+button:focus {
+    background-color: rgb(75, 62, 100);
+}
+
+
 a {
     text-decoration: none;
     color: rgb(47, 37, 66);
     font-weight: 600;
+}
+
+a:focus {
+    color:  rgb(75, 62, 100);
 }
 
 
@@ -132,3 +142,13 @@ input:focus {
 input:user-invalid {
     border: 2px solid rgb(238, 111, 111);
 }
+
+label {
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
