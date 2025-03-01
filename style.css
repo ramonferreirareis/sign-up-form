@@ -34,6 +34,20 @@ img {
     align-items: center;
 }
 
+.footer {
+    position: absolute;
+    color: white;
+    font-size: 1.5em;
+
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
 .logotype img {
     width: 100px;
 }
@@ -121,11 +135,13 @@ fieldset {
     display: flex;
     gap: 100px;
     border: none;
+    margin-bottom: 10px;
 }
 
 fieldset p {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 input {
